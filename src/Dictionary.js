@@ -23,11 +23,11 @@ export default function Dictionary(props) {
     //Documentation:https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${Keyword}`;
     axios.get(apiUrl).then(handleResponse);
-  }
 
-  let imageApiKey = "d2b000c63899bdd9d62748ft3o63f2a2";
-  let imageApiUrl = `https://api.shecodes.io/images/v1/search?query=${Keyword}&key=${imageApiKey}`;
-  axios.get(imageApiUrl).then(handleImageResponse);
+    let imageApiKey = "d2b000c63899bdd9d62748ft3o63f2a2";
+    let imageApiUrl = `https://api.shecodes.io/images/v1/search?query=${Keyword}&key=${imageApiKey}`;
+    axios.get(imageApiUrl).then(handleImageResponse);
+  }
 
   function handleSubmit(event) {
     event.preventDefault();
