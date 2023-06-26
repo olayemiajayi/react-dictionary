@@ -4,3 +4,19 @@
 .Results h2 {
   font-size: 35px;
 }
+.Results a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 1px solid #432160;
+  border-radius: 14px;
+  padding: 5px;
+  margin: 2px;
+  background-color: #432160;
+  color: #ffff;
+  transition: all 150ms ease-in-out;
+}
+.Results a:hover {
+  background-color: #fff591;
+  color: #222831;
+}

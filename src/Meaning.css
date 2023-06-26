@@ -1,6 +1,17 @@
 .Meaning {
-  font-size: 22px;
+  font-size: 16px;
 }
 .Meaning h3 {
-  font-size: 30px;
+  font-size: 38px;
+  font-style: italic;
+}
+.Meaning .Meaining-p {
+  font-size: 14px;
+  opacity: 0.4;
+  padding: 2px;
+}
+.definition p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222831;
 }

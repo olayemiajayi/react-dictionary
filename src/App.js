@@ -7,16 +7,19 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Dictionary</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword="Wine" />
         <footer>
-          Coded by Yetunde Ajayi and it is open source on{" "}
-          <a
-            href="https://github.com/olayemiajayi/react-dictionary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
+          <p>
+            Coded by <span className="name">Yetunde Ajayi</span> and it is open
+            source on{" "}
+            <a
+              href="https://github.com/olayemiajayi/react-dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </p>
         </footer>
       </div>
     </div>

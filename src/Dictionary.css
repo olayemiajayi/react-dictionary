@@ -1,4 +1,37 @@
-.dictionary {
+body {
+  background-image: url(https://i.etsystatic.com/37459064/r/il/d5373d/4191154751/il_1588xN.4191154751_s39i.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dictionary section {
   display: block;
-  text-align: center;
+  text-align: left;
+  background-color: #c2faf1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 60%;
+  margin-left: 193px;
+}
+.dictionary input {
+  width: 100%;
+  padding: 3px;
+  margin: 5px;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+}
+.heading {
+  font-size: 20px;
+}
+.dictionary .hint {
+  font-size: 10px;
+  font-style: italic;
+}
+@media (max-width: 900px) {
+  .dictionary section {
+    display: block;
+    padding: 20px;
+    margin: 20px auto;
+  }
 }
